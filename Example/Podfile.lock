@@ -1,0 +1,16 @@
+PODS:
+  - PratikPods13 (0.1.0)
+
+DEPENDENCIES:
+  - PratikPods13 (from `../`)
+
+EXTERNAL SOURCES:
+  PratikPods13:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PratikPods13: d51b796beeb743b05b51a672f292d411f018e4af
+
+PODFILE CHECKSUM: 07570933dc2c903544e0b7e69c4931633a7bad6d
+
+COCOAPODS: 1.2.0
