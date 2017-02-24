@@ -17,7 +17,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+        [self placeALabelOnVC];    [self placeALabelOnVC];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+
+
+- (void)placeALabelOnVC{
+    UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height/2, self.view.frame.size.width, 20)];
+    lbl.textAlignment = NSTextAlignmentCenter;
+    lbl.text = @"This is a testing of pods";
+    [self.view addSubview:lbl];
 }
 
 - (void)didReceiveMemoryWarning

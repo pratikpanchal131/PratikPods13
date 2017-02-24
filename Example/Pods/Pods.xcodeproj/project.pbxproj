@@ -12,7 +12,8 @@
 		25336C20D63F750C2A2588DEA3EB7A62 /* Pods-PratikPods13_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04897DF8D5BB7256A9B390BBA6CCB5 /* Pods-PratikPods13_Tests-dummy.m */; };
 		34D25A12BF2093BB4BAD32088DBB967C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		5019D3E0FE003ADA2B9FB22853E2E9D9 /* Pods-PratikPods13_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 839A39EA281299A2B03835858E3F07FE /* Pods-PratikPods13_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DE7352D78E56886667399264C3069B7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8930E6C3639CB5EFF50E0777C1DAF0 /* ReplaceMe.m */; };
+		A928B3ED1E60487200E2BFBF /* PKMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = A928B3EB1E60487200E2BFBF /* PKMessages.h */; };
+		A928B3EE1E60487200E2BFBF /* PKMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = A928B3EC1E60487200E2BFBF /* PKMessages.m */; };
 		E124B6DFF68C1D79FCB0493BFF53BDB1 /* PratikPods13-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BC88434290B86E457FEA30E242339 /* PratikPods13-dummy.m */; };
 		ED3CD0488E59987D824E247655616365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		F19B903387B6FC6BD52BEF28732FF965 /* PratikPods13-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6872E1728610AC224AE4A3AA9D55EC4 /* PratikPods13-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,7 +33,7 @@
 /* Begin PBXFileReference section */
 		0039E29C33D860A747B848BFF6C45F85 /* Pods-PratikPods13_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PratikPods13_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		09F1FF76713D754EF039805694A5AEC7 /* Pods-PratikPods13_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PratikPods13_Example-dummy.m"; sourceTree = "<group>"; };
-		0C9C3533D792B52C46ADA68FC876908D /* PratikPods13.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PratikPods13.modulemap; sourceTree = "<group>"; };
+		0C9C3533D792B52C46ADA68FC876908D /* PratikPods13.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PratikPods13.modulemap; sourceTree = "<group>"; };
 		171351B0789A5343109ED70733A4BBDB /* Pods-PratikPods13_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PratikPods13_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1D7DFFD6CCE9E6BED0046B58355D03A5 /* Pods-PratikPods13_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PratikPods13_Example-resources.sh"; sourceTree = "<group>"; };
 		2C25D67EE682E2634FDB2821774F2E9A /* PratikPods13-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PratikPods13-prefix.pch"; sourceTree = "<group>"; };
@@ -44,21 +45,22 @@
 		41D63F70A83E6B6AC5FAEDEE37263D9A /* Pods-PratikPods13_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PratikPods13_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4A8BEC0223C2815BC213FC687FCB062E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DAC365C99884C2AD7E1AE070208FFA5 /* Pods-PratikPods13_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PratikPods13_Tests-resources.sh"; sourceTree = "<group>"; };
-		4EF601FF291AF13D180D6C1D105F462F /* Pods_PratikPods13_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PratikPods13_Example.framework; path = "Pods-PratikPods13_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FB657B09F76A8A809D038FCA79C74EB /* Pods-PratikPods13_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PratikPods13_Example.modulemap"; sourceTree = "<group>"; };
+		4EF601FF291AF13D180D6C1D105F462F /* Pods_PratikPods13_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PratikPods13_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB657B09F76A8A809D038FCA79C74EB /* Pods-PratikPods13_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PratikPods13_Example.modulemap"; sourceTree = "<group>"; };
 		5857F56DB82F9FBBB009D5C2FEC00660 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81149BCFBF3B8C65F647281A74F3C17D /* Pods-PratikPods13_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PratikPods13_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		839A39EA281299A2B03835858E3F07FE /* Pods-PratikPods13_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PratikPods13_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94A6DBB369E8D7EA19175A01900AE1BB /* Pods-PratikPods13_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PratikPods13_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94A6DBB369E8D7EA19175A01900AE1BB /* Pods-PratikPods13_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PratikPods13_Tests.modulemap"; sourceTree = "<group>"; };
 		9BB00215659A7AE643E7636D0297EA47 /* Pods-PratikPods13_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PratikPods13_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D04897DF8D5BB7256A9B390BBA6CCB5 /* Pods-PratikPods13_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PratikPods13_Tests-dummy.m"; sourceTree = "<group>"; };
-		AE8930E6C3639CB5EFF50E0777C1DAF0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		A928B3EB1E60487200E2BFBF /* PKMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKMessages.h; sourceTree = "<group>"; };
+		A928B3EC1E60487200E2BFBF /* PKMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKMessages.m; sourceTree = "<group>"; };
 		AECC0359AE2B5379E839B469F523BF6A /* Pods-PratikPods13_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PratikPods13_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B19A875511E6669DBE175BA968158B65 /* Pods-PratikPods13_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PratikPods13_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E6BA207F19AD4E3D831C7F52AB9D26B8 /* PratikPods13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PratikPods13.framework; path = PratikPods13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6C6965A54AA292EB2B1C9315F12D395 /* Pods_PratikPods13_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PratikPods13_Tests.framework; path = "Pods-PratikPods13_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BA207F19AD4E3D831C7F52AB9D26B8 /* PratikPods13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PratikPods13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C6965A54AA292EB2B1C9315F12D395 /* Pods_PratikPods13_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PratikPods13_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14AE240CE0B4C34450FC4F24D904321 /* Pods-PratikPods13_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PratikPods13_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F6872E1728610AC224AE4A3AA9D55EC4 /* PratikPods13-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PratikPods13-umbrella.h"; sourceTree = "<group>"; };
 		FC0EADC643011253C24F7B3136AF74DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,16 +99,15 @@
 			children = (
 				585EECBAAE28A80B386AD02EA429D86F /* Classes */,
 			);
-			name = PratikPods13;
 			path = PratikPods13;
 			sourceTree = "<group>";
 		};
 		585EECBAAE28A80B386AD02EA429D86F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AE8930E6C3639CB5EFF50E0777C1DAF0 /* ReplaceMe.m */,
+				A928B3EB1E60487200E2BFBF /* PKMessages.h */,
+				A928B3EC1E60487200E2BFBF /* PKMessages.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -248,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5019D3E0FE003ADA2B9FB22853E2E9D9 /* Pods-PratikPods13_Example-umbrella.h in Headers */,
+				A928B3ED1E60487200E2BFBF /* PKMessages.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A928B3EE1E60487200E2BFBF /* PKMessages.m in Sources */,
 				049EAF24343F5451D161A044B508A697 /* Pods-PratikPods13_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +359,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E124B6DFF68C1D79FCB0493BFF53BDB1 /* PratikPods13-dummy.m in Sources */,
-				9DE7352D78E56886667399264C3069B7 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

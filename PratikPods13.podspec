@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PratikPods13'
-  s.version          = '0.1.0'
+  s.version          = '0.1.3'
   s.summary          = 'Creating first Pods'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   Create First Pods for Testing Purpose Only
                        DESC
 
-  s.homepage         = 'https://github.com/pratikpanchal131/PratikPods13'
+  s.homepage         = 'https://github.com/pratikpanchal131/PratikPods13.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hbsameer' => 'pratik.panchal@indianic.com' }
