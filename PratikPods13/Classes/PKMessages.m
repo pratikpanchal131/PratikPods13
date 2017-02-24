@@ -28,10 +28,18 @@
 }
 
 - (void)placeALabelOnVC{
-    UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height/2, self.view.frame.size.width, 20)];
+
+    UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 50, 300, 300)];
     lbl.textAlignment = NSTextAlignmentCenter;
     lbl.text = @"Pratik Panchal.!!!";
+    lbl.textColor = [UIColor redColor];
+    lbl.backgroundColor = [UIColor yellowColor];
+    NSLog(@"test Pods");
     [self.view addSubview:lbl];
+    
+    UIView *aView = [[UIView alloc] initWithFrame:CGRectMake(0, 300, 400, 100)];
+    aView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:aView];
 }
 
 /*
