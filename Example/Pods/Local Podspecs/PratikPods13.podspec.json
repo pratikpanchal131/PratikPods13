@@ -1,9 +1,9 @@
 {
   "name": "PratikPods13",
-  "version": "0.1.0",
-  "summary": "A short description of PratikPods13.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/hbsameer/PratikPods13",
+  "version": "0.1.5",
+  "summary": "Creating first Pods",
+  "description": "Create First Pods for Testing Purpose Only",
+  "homepage": "https://github.com/pratikpanchal131/PratikPods13.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "hbsameer": "pratik.panchal@indianic.com"
   },
   "source": {
-    "git": "https://github.com/hbsameer/PratikPods13.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/pratikpanchal131/PratikPods13.git",
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"

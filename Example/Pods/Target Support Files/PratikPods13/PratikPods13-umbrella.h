@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PKMessages.h"
 
 FOUNDATION_EXPORT double PratikPods13VersionNumber;
 FOUNDATION_EXPORT const unsigned char PratikPods13VersionString[];

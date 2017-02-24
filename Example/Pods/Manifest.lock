@@ -1,5 +1,5 @@
 PODS:
-  - PratikPods13 (0.1.0)
+  - PratikPods13 (0.1.5)
 
 DEPENDENCIES:
   - PratikPods13 (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PratikPods13: d51b796beeb743b05b51a672f292d411f018e4af
+  PratikPods13: cf57c4297fdd2d5812bd263b6394d8aa57c9befc
 
 PODFILE CHECKSUM: 07570933dc2c903544e0b7e69c4931633a7bad6d
 

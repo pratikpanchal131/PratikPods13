@@ -10,4 +10,6 @@
 
 @interface PKMessages : UIViewController
 
+- (void)placeALabelOnVC;
+
 @end
